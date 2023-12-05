@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-doker-город-e",
+  "editForm": "i-i-s-doker-город-e",
+  "external": false,
+  "caption": "Город",
+  "name": "IISDokerГородL",
+  "className": "ГородL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-doker-город",
+      "modelProjection": "ГородL"
+    }
+  ]
+}

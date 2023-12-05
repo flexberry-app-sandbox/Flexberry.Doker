@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-doker-здание-e",
+  "editForm": "i-i-s-doker-здание-e",
+  "external": false,
+  "caption": "Здание",
+  "name": "IISDokerЗданиеL",
+  "className": "ЗданиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-doker-здание",
+      "modelProjection": "ЗданиеL"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Город",
+      "projection": "ГородL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Здание",
+  "name": "IISDokerЗданиеE",
+  "className": "ЗданиеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-doker-здание",
+      "modelProjection": "ЗданиеE"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Doker",
+  "applicationTitle": "Doker",
+  "items": [
+    {
+      "link": null,
+      "menuName": "doker",
+      "caption": "Doker",
+      "title": "Doker",
+      "children": [
+        {
+          "link": "i-i-s-doker-здание-l",
+          "menuName": null,
+          "caption": "Здание",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-doker-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

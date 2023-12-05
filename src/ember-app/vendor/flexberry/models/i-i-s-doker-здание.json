@@ -1,0 +1,127 @@
+﻿{
+  "name": "IISDokerЗдание",
+  "modelName": "i-i-s-doker-здание",
+  "className": "Здание",
+  "nameSpace": "IIS.Doker",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрем",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "этажи",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "город",
+      "relatedTo": "i-i-s-doker-город",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗданиеE",
+      "modelName": "i-i-s-doker-здание",
+      "attrs": [
+        {
+          "name": "адрем",
+          "caption": "Адрем",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "этажи",
+          "caption": "Этажи",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Имя",
+          "lookupValueField": "имя",
+          "relationName": "Город",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Город",
+          "name": "город",
+          "relatedTo": "i-i-s-doker-город",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ЗданиеL",
+      "modelName": "i-i-s-doker-здание",
+      "attrs": [
+        {
+          "name": "адрем",
+          "caption": "Адрем",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "этажи",
+          "caption": "Этажи",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Город",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "город",
+          "relatedTo": "i-i-s-doker-город",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

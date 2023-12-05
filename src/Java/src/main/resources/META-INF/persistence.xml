@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Doker.model.Zdanie</class>
+        <class>Doker.model.Gorod</class>
+        <class>Doker.model.FlexberryAdvLimit</class>
+        <class>Doker.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Doker.model.NewPlatformFlexberryServicesLock</class>
+        <class>Doker.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>
